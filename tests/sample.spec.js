@@ -2,10 +2,10 @@ import { test } from '@playwright/test'
 test('Validate amzon application', async ({ page }) => {
     await page.goto('https://www.meesho.com/')
 })
-test('Validate amzon application', async ({ page }) => {
+test('Validate application', async ({ page }) => {
     await page.goto('https://www.flipkart.com/')
 })
-test('Validate amzon application', async ({ page }) => {
+test('Validate am application', async ({ page }) => {
     await page.goto('https://www.amazon.in/')
 })
 
