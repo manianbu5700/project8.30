@@ -8,9 +8,6 @@ test('Validate application', async ({ page }) => {
 test('Validate am application', async ({ page }) => {
     await page.goto('https://www.amazon.in/')
 })
-test('Validate shopee', async ({ page }) => {
-    await page.goto('https://www.shopee/')
-})
 
 
 
